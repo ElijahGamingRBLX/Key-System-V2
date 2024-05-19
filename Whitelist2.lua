@@ -1,5 +1,5 @@
 local HWIDTable = loadstring(game:HttpGet("your link"))()
-local HWID = game:GetService("RbxAnalyticsService"):GetCilentId()
+local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
 
 for i,v in pairs(HWIDTable) do
     if v == HWID then
