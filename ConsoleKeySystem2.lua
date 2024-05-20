@@ -1,6 +1,7 @@
 local input
 local key = loadstring(game:HttpGet('https://pastebin.com/raw/Cn7RLBx1'))()
 
+
 function begin()
   rconsoleprint("@@WHITE@@")
   rconsolename("Tutorial - Key System")
