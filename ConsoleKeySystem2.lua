@@ -8,6 +8,7 @@ function begin()
   rconsoleprint("Get Key: https://pastebin.com/\n")
   rconsoleprint("Enter Key: ")
   input = rconsoleinput()
+  
 
   if input == key then
     rconsoleclear()
